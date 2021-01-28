@@ -1,0 +1,96 @@
+{
+	"name": "nuxt-seo",
+	"main": "lib/module.js",
+	"preferGlobal": false,
+	"version": "1.5.0",
+	"description": "SEO / HTML Meta Tags Module for Nuxt.js",
+	"author": {
+		"email": "TiagoDanin@outlook.com",
+		"name": "Tiago Danin",
+		"url": "https://TiagoDanin.github.io"
+	},
+	"license": "MIT",
+	"keywords": [
+		"html-meta",
+		"meta",
+		"nuxt",
+		"nuxt-module",
+		"nuxtjs",
+		"seo",
+		"seo-meta",
+		"seo-optimization",
+		"seo-plugin",
+		"social-media",
+		"vue",
+		"vuejs",
+		"canonical"
+	],
+	"scripts": {
+		"start": "nuxt root",
+		"test": "xo && ava"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TiagoDanin/Nuxt-SEO.git"
+	},
+	"homepage": "https://TiagoDanin.github.io/Nuxt-SEO",
+	"bugs": {
+		"url": "https://github.com/TiagoDanin/Nuxt-SEO/issues"
+	},
+	"github": {
+		"name": "Nuxt-SEO",
+		"owner": "TiagoDanin"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"lib",
+		"package.json"
+	],
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.5",
+		"debug": "^4.2.0"
+	},
+	"devDependencies": {
+		"@nuxtjs/pwa": "^3.3.5",
+		"ava": "^3.13.0",
+		"got": "^11.8.0",
+		"nuxt": "^2.14.7",
+		"vue": "^2.6.12",
+		"xo": "^0.34.2"
+	},
+	"xo": {
+		"ignores": [
+			"lib/plugin.js"
+		],
+		"rules": {
+			"quote-props": "warn",
+			"eqeqeq": "warn",
+			"array-callback-return": "warn",
+			"require-atomic-updates": "warn",
+			"no-else-return": "off",
+			"ava/no-ignored-test-files": "off"
+		},
+		"semicolon": false
+	},
+	"documentation": "./docs.md",
+	"ava": {
+		"files": [
+			"!test/fixtures/all.js"
+		]
+	},
+	"resolutions": {
+		"yargs-parser": "^20.2.4",
+		"kind-of": "^6.0.3"
+	},
+	"features": [
+		"Easy to use",
+		"Canonical tag automatically generated",
+		"Implementation of Open Graph Protocol (ogp)",
+		"Compatible with npm package: debug"
+	]
+}
