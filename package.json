@@ -1,14 +1,9 @@
 {
-	"name": "nuxt-seo",
+	"name": "fangwai",
 	"main": "lib/module.js",
 	"preferGlobal": false,
 	"version": "1.5.0",
-	"description": "SEO / HTML Meta Tags Module for Nuxt.js",
-	"author": {
-		"email": "TiagoDanin@outlook.com",
-		"name": "Tiago Danin",
-		"url": "https://TiagoDanin.github.io"
-	},
+	"description": "fangwai",
 	"license": "MIT",
 	"keywords": [
 		"html-meta",
@@ -33,18 +28,6 @@
 		"node": ">=12"
 	},
 	"private": false,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/TiagoDanin/Nuxt-SEO.git"
-	},
-	"homepage": "https://TiagoDanin.github.io/Nuxt-SEO",
-	"bugs": {
-		"url": "https://github.com/TiagoDanin/Nuxt-SEO/issues"
-	},
-	"github": {
-		"name": "Nuxt-SEO",
-		"owner": "TiagoDanin"
-	},
 	"files": [
 		"LICENSE",
 		"README.md",
@@ -86,11 +69,5 @@
 	"resolutions": {
 		"yargs-parser": "^20.2.4",
 		"kind-of": "^6.0.3"
-	},
-	"features": [
-		"Easy to use",
-		"Canonical tag automatically generated",
-		"Implementation of Open Graph Protocol (ogp)",
-		"Compatible with npm package: debug"
-	]
+	}
 }
