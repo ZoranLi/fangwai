@@ -25,8 +25,12 @@ module.exports = {
     },
     buildModules: [
         '@nuxtjs/pwa',
+        '@nuxt/components'
     ],
     pwa: {
         icon: false // disables the icon module
-    }
+    },
+    css: [
+        'assets/reset.css',
+    ],
 }
