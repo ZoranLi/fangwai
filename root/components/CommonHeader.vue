@@ -2,16 +2,42 @@
     <div class="navigator">
         <span>芳外</span>
         <ul>
-            <li><a href="#">首页</a></li>
-            <li><a href="#">关于芳外</a></li>
-            <li><a href="#">购买产品</a></li>
-            <li><a href="#">联系我们</a></li>
+            <li v-for="(item,index) in list">
+                <a @click="navigation(item)">{{item.name}}</a>
+            </li>
         </ul>
     </div>
 </template>
 
 <script>
-    export default {}
+    export default {
+        data() {
+            return {
+                list: [
+                    {
+                        name: '首页', path: '/'
+                    },
+                    {
+                        name: '关于芳外', path: '/about'
+                    },
+                    {
+                        name: '购买产品', path: '/product'
+                    },
+                    {
+                        name: '联系我们', path: '/contact'
+                    },
+                ]
+            }
+        },
+        methods: {
+            navigation(item) {
+                if (this.$route.path === item.path) {
+                    return
+                }
+                location.href = item.path
+            }
+        }
+    }
 
 </script>
 
@@ -39,6 +65,10 @@
         float: left;
         margin-left: 20px;
         font-size: 22px;
+    }
+
+    .navigator ul li a {
+        cursor: pointer;
     }
 
 </style>
