@@ -64,3 +64,4 @@ typings/
 root/.nuxt
 dist/
 .idea
+/root/static/*.js
