@@ -16,12 +16,13 @@
             <p>东方匠心调香师打磨发财香味</p>
         </div>
 
-
+        <Common-Footer></Common-Footer>
     </div>
 </template>
 
 <script>
     import CommonHeader from '~/components/CommonHeader'
+    import CommonFooter from '~/components/CommonFooter'
 
     export default {
         head: function () {
@@ -30,15 +31,12 @@
             })
         },
         components: {
-            CommonHeader
+            CommonHeader, CommonFooter
         }
     }
 </script>
 
 <style>
-    body {
-    }
-
     ::-webkit-scrollbar {
         width: 0; /* Remove scrollbar space */
         background: transparent; /* Optional: just make scrollbar invisible */
@@ -49,7 +47,6 @@
         margin: 0 auto;
         width: 100vw;
         min-height: 100vh;
-        padding-bottom: 100px;
     }
 
     .header_banner {
