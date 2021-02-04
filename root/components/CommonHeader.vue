@@ -43,14 +43,16 @@
 
 <style>
     .navigator {
+        z-index: 10;
         width: 100%;
         height: 100px;
+        position: absolute;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #ffead9;
         font-size: 28px;
-        font-family: PingFangSC-Light, sans-serif;
+        font-family: PingFangSC-Light;
     }
 
     .navigator span {

@@ -36,7 +36,8 @@
 	],
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.5",
-		"debug": "^4.2.0"
+		"debug": "^4.2.0",
+		"progressive-image": "^1.2.0"
 	},
 	"devDependencies": {
 		"@nuxtjs/pwa": "^3.3.5",

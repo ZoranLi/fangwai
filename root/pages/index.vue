@@ -1,6 +1,9 @@
 <template>
+
     <div class="container">
+
         <Common-Header></Common-Header>
+
     </div>
 </template>
 
@@ -20,6 +23,10 @@
 </script>
 
 <style>
+    body {
+        background: #841211;
+    }
+
     .container {
         font-size: 100%;
         margin: 0 auto;
