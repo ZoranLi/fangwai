@@ -2,21 +2,22 @@
     <div class="container">
         <Common-Header></Common-Header>
         <div class="header_banner">
-            <img src="../static/images/banner.png" alt="">
-            <span>多一点无用的享乐，生活才有味道</span>
+            <img src="../static/images/about_banner.png" alt="">
+            <div class="header_message">
+                <p>关于我们</p>
+                <p>向世界分享中国人的生活智慧与情趣</p>
+            </div>
         </div>
 
-        <div class="production">
+        <div class="philosophy">
+            <p>品牌哲学</p>
+            <p>芳外，又方外，世俗之外；</p>
+            <p>于日用必需以外，多一点无用的享乐，生活才有味道。</p>
+            <p>在滚滚红尘之中，保留一份对方外世界的想象与勇敢。</p>
+            <p>诸多求不得之时，用芳香唤醒你心中的那片桃花源。</p>
             <img src="../static/images/production.png" alt="">
         </div>
 
-
-        <div class="description">
-            <p>发财香水</p>
-            <p>东方匠心调香师打磨发财香味</p>
-            <img src="../static/images/qr.png" alt="">
-            <p>扫码快速购买</p>
-        </div>
 
         <Common-Footer></Common-Footer>
     </div>
@@ -29,7 +30,7 @@
     export default {
         head: function () {
             return this.$seo({
-                title: '购买产品'
+                title: '关于我们'
             })
         },
         components: {
@@ -61,7 +62,8 @@
         height: 40vw;
     }
 
-    .header_banner span {
+    .header_banner .header_message {
+        text-align: center;
         position: absolute;
         font-size: 33px;
         top: 50%;
@@ -72,45 +74,33 @@
         color: #eeded4;
     }
 
-    .production {
+    .header_banner .header_message p:nth-child(1) {
+        font-size: 66px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 7px;
+        color: #ffead9;
+        font-family: SourceHanSerifCN-Medium;
+    }
+
+    .header_banner .header_message p:nth-child(2) {
+        font-family: PingFangSC-Thin;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 4px;
+        color: #ffead9;
+    }
+
+    .philosophy {
         width: 100%;
-        display: flex;
-        justify-content: center;
         margin-top: 6vw;
     }
 
-    .production img {
+    .philosophy img {
         width: 62vw;
         height: 38vw;
     }
 
-    .description {
-        margin-top: 3vw;
-        text-align: center;
-        font-family: PingFangSC-Light;
-        font-size: 40px;
-        font-weight: normal;
-        font-stretch: normal;
-        letter-spacing: 0;
-        color: #191919;
-    }
-
-    .description p:nth-child(2) {
-        margin-top: 10px;
-        font-family: PingFangSC-Thin;
-        font-size: 26px;
-        font-weight: normal;
-        font-stretch: normal;
-        line-height: 45px;
-        letter-spacing: 2px;
-        color: #191919;
-    }
-
-    .description p:nth-child(4) {
-        font-size: 28px;
-        font-family: PingFangSC-Light;
-        color: #1e1e1e;
-        margin-bottom: 116px;
-    }
 
 </style>

@@ -33,7 +33,7 @@
         width: 100vw;
         height: 100vh;
         object-fit: cover;
-        background: url("../static/images/background.webp");
+        background: url("../static/images/background.png");
         background-size: cover;
     }
 
