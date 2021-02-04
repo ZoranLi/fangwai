@@ -57,9 +57,11 @@
 
     .navigator span {
         margin-left: 80px;
+        min-width: 87px;
     }
 
     .navigator ul {
+        min-width: 380px;
         margin-right: 80px;
     }
 

@@ -14,6 +14,8 @@
         <div class="description">
             <p>发财香水</p>
             <p>东方匠心调香师打磨发财香味</p>
+            <img src="../static/images/qr.png" alt="">
+            <p>扫码快速购买</p>
         </div>
 
         <Common-Footer></Common-Footer>
@@ -65,6 +67,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        min-width: 510px;
         font-family: PingFangSC-Light, sans-serif;
         color: #eeded4;
     }
@@ -101,6 +104,13 @@
         line-height: 45px;
         letter-spacing: 2px;
         color: #191919;
+    }
+
+    .description p:nth-child(4) {
+        font-size: 28px;
+        font-family: PingFangSC-Light;
+        color: #1e1e1e;
+        margin-bottom: 116px;
     }
 
 </style>
