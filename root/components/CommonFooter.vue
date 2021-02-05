@@ -26,14 +26,14 @@
         justify-content: center;
         background: #1b1b1b;
         width: 100vw;
-        height: 458px;
+        height: 24vw;
     }
 
     .footer_left {
-        height: 165px;
+        height: 9vw;
         color: #ffffff;
         font-family: PingFangSC-Light;
-        font-size: 22px;
+        font-size: 1vw;
         margin-right: 15vw;
     }
 
@@ -56,13 +56,13 @@
     .footer_left em {
         color: white;
         font-family: PingFangSC-Thin;
-        font-size: 22px;
+        font-size: 1vw;
         letter-spacing: 1px;
     }
 
     .footer img {
-        width: 137px;
-        height: 165px;
+        width: 8vw;
+        height: 9vw;
     }
 
 </style>

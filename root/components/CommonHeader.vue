@@ -44,31 +44,31 @@
 <style>
     .navigator {
         z-index: 10;
-        width: 100%;
-        height: 100px;
+        width: 100vw;
+        height: 10vw;
         position: absolute;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #ffead9;
-        font-size: 28px;
+        font-size: 3vw;
         font-family: PingFangSC-Light;
     }
 
     .navigator span {
-        margin-left: 80px;
+        margin-left: 4vw;
         min-width: 87px;
     }
 
     .navigator ul {
-        min-width: 380px;
-        margin-right: 80px;
+        /*min-width: 380px;*/
+        margin-right: 12vw;
     }
 
     .navigator ul li {
         float: left;
         margin-left: 20px;
-        font-size: 22px;
+        font-size: 2vw;
     }
 
     .navigator ul li a {
