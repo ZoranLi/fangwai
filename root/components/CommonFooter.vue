@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <div class="footer_left">
+        <div class="footer_left" id="anchor">
             <p><i>联系我们</i></p>
             <p><i>商务合作</i> <em>bd@xiaohongchun.com</em></p>
             <p><i>公司地址</i> <em>北京市朝阳区东风北桥东风KASO402室</em></p>

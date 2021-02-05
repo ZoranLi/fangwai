@@ -24,7 +24,7 @@
                         name: '购买产品', path: '/product'
                     },
                     {
-                        name: '联系我们', path: '/contact'
+                        name: '联系我们', path: '/about#anchor'
                     },
                 ]
             }
